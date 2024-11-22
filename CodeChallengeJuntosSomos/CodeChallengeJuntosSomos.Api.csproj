@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.Borders\CodeChallengeJuntosSomos.Borders.csproj" />
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.Repositories\CodeChallengeJuntosSomos.Repositories.csproj" />
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.Shared\CodeChallengeJuntosSomos.Shared.csproj" />
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.UseCase\CodeChallengeJuntosSomos.UseCase.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CodeChallengeJuntosSomos.Borders/1.0.0": {
+        "dependencies": {
+          "CodeChallengeJuntosSomos.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CodeChallengeJuntosSomos.Borders.dll": {}
+        }
+      },
+      "CodeChallengeJuntosSomos.Shared/1.0.0": {
+        "runtime": {
+          "CodeChallengeJuntosSomos.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeChallengeJuntosSomos.Borders/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeChallengeJuntosSomos.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
