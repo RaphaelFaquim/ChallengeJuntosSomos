@@ -28,3 +28,4 @@ C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Border
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Borders\obj\Debug\net8.0\refint\CodeChallengeJuntosSomos.Borders.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Borders\obj\Debug\net8.0\CodeChallengeJuntosSomos.Borders.pdb
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Borders\obj\Debug\net8.0\ref\CodeChallengeJuntosSomos.Borders.dll
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Borders\obj\Debug\net8.0\CodeChallengeJuntosSomos.Borders.sourcelink.json

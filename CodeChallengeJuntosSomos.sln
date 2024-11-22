@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallengeJuntosSomos.Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallengeJuntosSomos.Repositories", "CodeChallengeJuntosSomos.Repositories\CodeChallengeJuntosSomos.Repositories.csproj", "{C87D5582-CC93-4690-A082-0C3F0DF07994}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallengeJuntosSomos.UseCase", "CodeChallengeJuntosSomos.UseCase\CodeChallengeJuntosSomos.UseCase.csproj", "{0C558E7C-EBEA-413E-A64E-CE1CD7D7913C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallengeJuntosSomos.Test", "CodeChallengeJuntosSomos.Test\CodeChallengeJuntosSomos.Test.csproj", "{88FE373C-9D99-4CDA-8D1E-4C703CFE9843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C87D5582-CC93-4690-A082-0C3F0DF07994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C87D5582-CC93-4690-A082-0C3F0DF07994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C87D5582-CC93-4690-A082-0C3F0DF07994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C558E7C-EBEA-413E-A64E-CE1CD7D7913C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C558E7C-EBEA-413E-A64E-CE1CD7D7913C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C558E7C-EBEA-413E-A64E-CE1CD7D7913C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C558E7C-EBEA-413E-A64E-CE1CD7D7913C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FE373C-9D99-4CDA-8D1E-4C703CFE9843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FE373C-9D99-4CDA-8D1E-4C703CFE9843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FE373C-9D99-4CDA-8D1E-4C703CFE9843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FE373C-9D99-4CDA-8D1E-4C703CFE9843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

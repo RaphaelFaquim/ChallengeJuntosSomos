@@ -46,7 +46,6 @@ C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\De
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\CodeChallengeJuntosSomos.Api.runtimeconfig.json
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\CodeChallengeJuntosSomos.Api.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\CodeChallengeJuntosSomos.Api.pdb
-C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\CsvHelper.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -80,3 +79,6 @@ C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\obj\De
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\obj\Debug\net8.0\CodeChallengeJuntosSomos.Api.pdb
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\obj\Debug\net8.0\CodeChallengeJuntosSomos.Api.genruntimeconfig.cache
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\obj\Debug\net8.0\ref\CodeChallengeJuntosSomos.Api.dll
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\obj\Debug\net8.0\CodeChallengeJuntosSomos.Api.sourcelink.json
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\ExcelDataReader.dll
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos\bin\Debug\net8.0\ExcelDataReader.DataSet.dll

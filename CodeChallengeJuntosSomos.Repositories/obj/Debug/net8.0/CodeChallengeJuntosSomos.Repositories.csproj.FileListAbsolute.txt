@@ -32,3 +32,4 @@ C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Reposi
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Repositories\obj\Debug\net8.0\refint\CodeChallengeJuntosSomos.Repositories.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Repositories\obj\Debug\net8.0\CodeChallengeJuntosSomos.Repositories.pdb
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Repositories\obj\Debug\net8.0\ref\CodeChallengeJuntosSomos.Repositories.dll
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Repositories\obj\Debug\net8.0\CodeChallengeJuntosSomos.Repositories.sourcelink.json

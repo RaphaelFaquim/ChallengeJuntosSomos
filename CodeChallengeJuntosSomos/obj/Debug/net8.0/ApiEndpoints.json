@@ -3,14 +3,14 @@
     "ContainingType": "CodeChallengeJuntosSomos.Api.Controllers.EmpresaController",
     "Method": "EnviarArquivoCsv",
     "RelativePath": "Empresa/EnviarArquivoCsv",
-    "HttpMethod": "PUT",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "insumo",
-        "Type": "System.String",
-        "IsRequired": true
+        "Name": "iFormFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

@@ -20,3 +20,5 @@ C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Shared
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Shared\obj\Debug\net8.0\refint\CodeChallengeJuntosSomos.Shared.dll
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Shared\obj\Debug\net8.0\CodeChallengeJuntosSomos.Shared.pdb
 C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Shared\obj\Debug\net8.0\ref\CodeChallengeJuntosSomos.Shared.dll
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Shared\obj\Debug\net8.0\CodeChallengeJuntosSomos.Shared.csproj.AssemblyReference.cache
+C:\Users\rapha\Source\Repos\ChallengeJuntosSomos\CodeChallengeJuntosSomos.Shared\obj\Debug\net8.0\CodeChallengeJuntosSomos.Shared.sourcelink.json

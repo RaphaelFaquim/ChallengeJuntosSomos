@@ -21,13 +21,13 @@ namespace CodeChallengeJuntosSomos.Api.Controllers
             this.iEmpresarepository = iEmpresarepository;
         }
 
-        [HttpPut("EnviarArquivoCsv")]
+        [HttpPost("EnviarArquivoCsv")]
         [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(Insumo))]
         [ProducesResponseType((int)HttpStatusCode.NotFound, Type = typeof(ErrorMessage))]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError, Type = typeof(ErrorMessage[]))]
-        public async Task<IActionResult> EnviarArquivoCsv([FromServices] IEmpresaUseCase iEmpresaUseCase, [FromBody] string insumo)
+        public async Task<IActionResult> EnviarArquivoCsv([FromServices] IEmpresaUseCase iEmpresaUseCase, IFormFile iFormFile)
         {
-            return Ok(await iEmpresaUseCase.EmpresaArquivoCSV(insumo));
+            return Ok(await iEmpresaUseCase.EmpresaArquivoCSV(iFormFile));
         }
         [HttpPut("EnviarArquivoJson")]
         [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(Insumo))]

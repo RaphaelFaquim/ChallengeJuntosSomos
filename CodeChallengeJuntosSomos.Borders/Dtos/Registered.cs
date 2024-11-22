@@ -6,7 +6,7 @@ namespace CodeChallengeJuntosSomos.Borders.Dtos
     public class Registered
     {
         public DateTime Date { get; set; }
-        //[JsonIgnore]
+        [JsonIgnore]
         public int Age { get; set; }
     }
 }

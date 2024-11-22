@@ -18,15 +18,33 @@
           "CodeChallengeJuntosSomos.Api.dll": {}
         }
       },
-      "CsvHelper/33.0.1": {
+      "ExcelDataReader/3.7.0": {
         "runtime": {
-          "lib/net8.0/CsvHelper.dll": {
-            "assemblyVersion": "33.0.0.0",
-            "fileVersion": "33.0.1.24"
+          "lib/netstandard2.1/ExcelDataReader.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
           }
         }
       },
+      "ExcelDataReader.DataSet/3.7.0": {
+        "dependencies": {
+          "ExcelDataReader": "3.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/ExcelDataReader.DataSet.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
+      "Microsoft.Extensions.Primitives/5.0.1": {},
       "Microsoft.OpenApi/1.6.14": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -73,9 +91,11 @@
           }
         }
       },
+      "System.IO.Pipelines/5.0.2": {},
       "CodeChallengeJuntosSomos.Borders/1.0.0": {
         "dependencies": {
-          "CodeChallengeJuntosSomos.Shared": "1.0.0"
+          "CodeChallengeJuntosSomos.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "runtime": {
           "CodeChallengeJuntosSomos.Borders.dll": {
@@ -96,6 +116,11 @@
         }
       },
       "CodeChallengeJuntosSomos.Shared/1.0.0": {
+        "dependencies": {
+          "ExcelDataReader": "3.7.0",
+          "ExcelDataReader.DataSet": "3.7.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "runtime": {
           "CodeChallengeJuntosSomos.Shared.dll": {
             "assemblyVersion": "1.0.0",
@@ -106,7 +131,9 @@
       "CodeChallengeJuntosSomos.UseCase/1.0.0": {
         "dependencies": {
           "CodeChallengeJuntosSomos.Borders": "1.0.0",
-          "CsvHelper": "33.0.1"
+          "CodeChallengeJuntosSomos.Repositories": "1.0.0",
+          "CodeChallengeJuntosSomos.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "runtime": {
           "CodeChallengeJuntosSomos.UseCase.dll": {
@@ -123,12 +150,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CsvHelper/33.0.1": {
+    "ExcelDataReader/3.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fev4lynklAU2A9GVMLtwarkwaanjSYB4wUqO2nOJX5hnzObORzUqVLe+bDYCUyIIRQM4o5Bsq3CcyJR89iMmEQ==",
-      "path": "csvhelper/33.0.1",
-      "hashPath": "csvhelper.33.0.1.nupkg.sha512"
+      "sha512": "sha512-AMv3oDETRHSRyXC17rBtKH45qIfFyo433LMeaMB3u4RNr/c9Luuc0Z+JMP6+3Cx9n4wXqFqcrEIVxrf/GgYnZg==",
+      "path": "exceldatareader/3.7.0",
+      "hashPath": "exceldatareader.3.7.0.nupkg.sha512"
+    },
+    "ExcelDataReader.DataSet/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zA2/CVzbMspkNg0qf0/Zp+eU6VxYP5PtiJSErLDP46d/Y7F6of/NCcSGeXjs97KDq7UiEf6XJe+89s/92n2GYg==",
+      "path": "exceldatareader.dataset/3.7.0",
+      "hashPath": "exceldatareader.dataset.3.7.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -136,6 +177,13 @@
       "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "path": "microsoft.extensions.apidescription.server/6.0.5",
       "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5WPSmL4YeP7eW+Vc8XZ4DwjYWBAiSwDV9Hm63JJWcz1Ie3Xjv4KuJXzgCstj48LkLfVCYa7mLcx7y+q6yqVvtw==",
+      "path": "microsoft.extensions.primitives/5.0.1",
+      "hashPath": "microsoft.extensions.primitives.5.0.1.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.6.14": {
       "type": "package",
@@ -171,6 +219,13 @@
       "sha512": "sha512-mBBb+/8Hm2Q3Wygag+hu2jj69tZW5psuv0vMRXY07Wy+Rrj40vRP8ZTbKBhs91r45/HXT4aY4z0iSBYx1h6JvA==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.6.2",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Iew+dfa6FFiyvWBdRmXApixRY1db+beyutpIck4SOSe0NLM8FD/7AD54MscqVLhvfSMLHO7KadjTRT7fqxOGTA==",
+      "path": "system.io.pipelines/5.0.2",
+      "hashPath": "system.io.pipelines.5.0.2.nupkg.sha512"
     },
     "CodeChallengeJuntosSomos.Borders/1.0.0": {
       "type": "project",

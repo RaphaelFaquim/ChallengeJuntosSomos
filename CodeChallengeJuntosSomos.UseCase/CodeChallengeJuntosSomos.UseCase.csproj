@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.Borders\CodeChallengeJuntosSomos.Borders.csproj" />
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.Repositories\CodeChallengeJuntosSomos.Repositories.csproj" />
+    <ProjectReference Include="..\CodeChallengeJuntosSomos.Shared\CodeChallengeJuntosSomos.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

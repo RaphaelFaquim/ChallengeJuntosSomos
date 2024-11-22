@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeChallengeJuntosSomos.Borders")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28612b81592e992a99d45e16425b7b0199850db7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeChallengeJuntosSomos.Borders")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeChallengeJuntosSomos.Borders")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
