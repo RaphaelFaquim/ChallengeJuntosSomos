@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeChallengeJuntosSomos.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b24cebafcf026dfd037488f97b2e88369e6ea77")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeChallengeJuntosSomos.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeChallengeJuntosSomos.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

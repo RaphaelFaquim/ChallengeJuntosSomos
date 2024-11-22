@@ -14,7 +14,6 @@
     <ProjectReference Include="..\CodeChallengeJuntosSomos.Borders\CodeChallengeJuntosSomos.Borders.csproj" />
     <ProjectReference Include="..\CodeChallengeJuntosSomos.Repositories\CodeChallengeJuntosSomos.Repositories.csproj" />
     <ProjectReference Include="..\CodeChallengeJuntosSomos.Shared\CodeChallengeJuntosSomos.Shared.csproj" />
-    <ProjectReference Include="..\CodeChallengeJuntosSomos.UseCase\CodeChallengeJuntosSomos.UseCase.csproj" />
   </ItemGroup>
 
 </Project>
